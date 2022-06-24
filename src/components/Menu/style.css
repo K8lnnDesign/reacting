@@ -1,0 +1,19 @@
+.menu {
+    float: left;
+    width: 20%;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu {
+        width: 100%;
+    }
+}

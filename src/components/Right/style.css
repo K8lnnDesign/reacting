@@ -1,0 +1,15 @@
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .right {
+        width: 100%;
+    }
+}
